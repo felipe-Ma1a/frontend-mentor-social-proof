@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: <a href="#">Frontend Mentor</a> 
-- Live Site URL: <a href="#">Github Pages</a>
+- Solution URL: <a href="https://www.frontendmentor.io/solutions/social-proof-with-flexbox-UqI2T4KVxY">Frontend Mentor</a> 
+- Live Site URL: <a href="https://felipe-ma1a.github.io/frontend-mentor-social-proof/">Github Pages</a>
 
 ## Built with
 
