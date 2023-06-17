@@ -1,0 +1,107 @@
+@media only screen and (max-width: 1024px) {
+  .main {
+    margin-left: 55px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container .text h1 {
+    text-align: center;
+    font-size: 3rem;
+    width: 200px;
+  }
+
+  .container .text p {
+    text-align: center;
+    width: 340px;
+  }
+
+  .container .rating {
+    gap: 10px;
+  }
+
+  .container .rating .item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container .rating .reviews {
+    margin: 0 auto;
+  }
+
+  .container .rating .guru {
+    margin: 0 auto;
+  }
+
+  .container .rating .best-tech {
+    margin: 0 auto;
+  }
+
+  .container .rating .item .space {
+    margin: 0 auto;
+  }
+
+  .container .rating .item .images {
+    margin-bottom: 10px;
+  }
+
+  .container .rating .background {
+    width: 370px;
+  }
+
+  .comment-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .comment-container .item {
+    width: 370px;
+  }
+
+  .comment-container .irene {
+    margin: 0 auto;
+  }
+
+  .comment-container .anne {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  body {
+    background: url("../images/bg-pattern-top-mobile.svg") left top no-repeat,
+                url("../images/bg-pattern-bottom-mobile.svg") right bottom no-repeat;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .main {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .main {
+    margin-top: 80px;
+    margin-left: 200px;
+  }
+
+  .container .text h1 {
+    margin-bottom: 30px;
+  }
+
+  .container .text p {
+    margin-bottom: 20px;
+  }
+}

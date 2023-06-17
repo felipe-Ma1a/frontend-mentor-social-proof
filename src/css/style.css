@@ -1,0 +1,142 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  background: url("../images/bg-pattern-top-desktop.svg") left top no-repeat,
+              url("../images/bg-pattern-bottom-desktop.svg") right bottom no-repeat;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  margin-top: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container .text {
+  width: 500px;
+}
+
+.container .text h1 {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  width: 350px;
+}
+
+.container .text p {
+  color: hsl(303, 10%, 53%);
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 2.2rem;
+  width: 430px;
+}
+
+.container .rating {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.container .rating .reviews {
+  margin-right: 150px;
+}
+
+.container .rating .guru {
+  margin-right: 80px;
+}
+
+.container .rating .best-tech {
+  margin-right: 60px;
+}
+
+.container .rating .item {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 1.7rem;
+  display: flex;
+}
+
+.container .rating .item .space {
+  margin-right: 20px;
+}
+
+.container .rating .background {
+  background-color: hsl(300, 24%, 96%);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.comment-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 50px;
+  gap: 30px;
+}
+
+.comment-container .irene {
+  margin-top: 30px;
+}
+
+.comment-container .anne {
+  margin-top: 60px;
+}
+
+.comment-container .item {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  padding: 30px;
+  width: 320px;
+}
+
+.comment-container .item p {
+  color: hsl(300, 24%, 96%);
+  line-height: 2rem;
+}
+
+.comment-container .item .photo {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.comment-container .item .photo img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.comment-container .item .photo .name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.comment-container .item .photo .name h2 {
+  color: hsl(300, 24%, 96%);
+  font-size: 1.5rem;
+}
+
+.comment-container .item .photo .name h3 {
+  color: hsl(333, 80%, 67%);
+}
